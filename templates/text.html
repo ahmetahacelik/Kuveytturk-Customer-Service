@@ -1,0 +1,31 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="container">
+<div class= "row logo2">
+<div class="col-md-4 offset-md-4">
+	<img STYLE="WIDTH:350px; HEIGHT:200px" SRC="kuveyt.jpg">
+</div>
+</div>
+
+<div class="row" style="padding-top:20px">
+<div class="col-md-4 offset-md-4">
+   <body style="background-color:Beige;">
+      <form action = "http://localhost:5000/myapp" method = "post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter Iban</label>
+    <input name = "iban"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sample Iban: TR34 4532 2314 5345 4356 1255 12">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Enter Cvc</label>
+    <input name = "cvc" type="password" class="form-control" id="exampleInputPassword1" placeholder="Sample Cvc: 123">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Analyse</button>
+   <small id="Note" class="form-text text-muted">We'll never share your report with anyone else.</small>
+
+</form>
+   </body>
+   </div>
+   </div>
+</html>
+
